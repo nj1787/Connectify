@@ -1,0 +1,67 @@
+body{
+    background:url("clem-onojeghuo-151803-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+
+html{
+    height: 95%;
+    letter-spacing: 0.2em;
+}
+
+
+#content{
+    padding-top: 60%;
+    color: deeppink;
+    font-family:  font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 5em; 
+}
+
+#line{
+    border-left: 1px solid green;
+    height: 640px;
+}
+
+
+
+footer{
+    padding-top: 30%;
+}
+
+.signup {
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 257px;
+    margin: 20px auto 0;
+    width: 400px;
+    font-size: 20px;
+  }
+ 
+  input[type="password"], input[type="text"] {
+    border: 1px solid #a1a3a3;
+    border-radius: 4px;
+    box-shadow: 0 1px #fff;
+    box-sizing: border-box;
+    color: #696969;
+    height: 39px;
+    margin: 31px 0 0 29px;
+    padding-left: 37px;
+    transition: box-shadow 0.3s;
+    width: 340px;
+  }
+  input[type="password"]:focus, input[type="text"]:focus {
+    box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+    outline: 0;
+  }
+  .show-password {
+    display: block;
+    height: 16px;
+    margin: 26px 0 0 28px;
+    width: 87px;
+  }
+  

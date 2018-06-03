@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Connectify</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>      
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <script src="main.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Connectify</a>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+      <div class="container">
+        <div class="row">
+              <div class="col-lg-12">
+                <div id="content">
+                    <h1>Connectify</h1>
+                    <h3>The Perfect Way To Connect.</h3>
+                    <hr>
+                    <button type="button" class="btn btn-default" id="myBtn"><i class="far fa-heart"></i> Get Started</button>
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                        
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header" style="padding:35px 50px;">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 style="font-family: 'Lato', sans-serif;">Login</h4>
+                            </div>
+                            <div class="modal-body" style="padding:40px 50px; color: gold">
+                              <form role="form" action="index.php" method="POST">
+                                <div class="form-group">
+                                  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                                  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                                  <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox" value="" checked>Remember me</label>
+                                </div>
+                                  <button type="submit" class="btn btn-default btn-block">Login</button>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <p>Not a member? <a href="signup2.html">Sign Up</a></p>
+                              <p>Forgot <a href="#">Password?</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                     
+                    <script>
+                    $(document).ready(function(){
+                        $("#myBtn").click(function(){
+                            $("#myModal").modal();
+                        });
+                    });
+                    </script>
+                    
+                </div>
+              </div> 
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>                  
+              <div class="row">
+                  <div class="col-lg-12">
+                    <div id="about">
+                      <h1>About</h1>
+                      <br><br><br>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="william-stitt-140890-unsplash.jpg" class="img-circle" alt="DisplayImage">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="clem-onojeghuo-151803-unsplash.jpg" class="img-circle" alt="DisplayImage">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="toa-heftiba-84798-unsplash.jpg" class="img-circle" alt="DisplayImage">
+                        </div>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                              <p><strong>Every year, hundreds of thousands of people connect on Connectify. Connectify continues to redefine the way single men and single women meet, flirt, date and fall in love, proving time and again that.you can make love happen through online dating and that lasting relationships are possible. Connectify users are serious about finding connections. And we put you in control of your social life; meeting someone new and forming a lasting connection is as easy as clicking on any one of the photos and singles ads available online.Connectify can help you find connections that fits you best. Dive into the world of Online Connectivity. Literally, hundreds of thousands of men and single right in your area have posted personal ads on Connectify.</strong></p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div> 
+              <button onclick="topFunction()" id="myBtn2" title="Go to top"><i class="fas fa-hand-point-up"></i></button> 
+              <script>
+                  // When the user scrolls down 20px from the top of the document, show the button
+                  window.onscroll = function() {scrollFunction()};
+                  
+                  function scrollFunction() {
+                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                          document.getElementById("myBtn2").style.display = "block";
+                      } else {
+                          document.getElementById("myBtn2").style.display = "none";
+                      }
+                  }
+                  
+                  // When the user clicks on the button, scroll to the top of the document
+                  function topFunction() {
+                      document.body.scrollTop = 0;
+                      document.documentElement.scrollTop = 0;
+                  }
+              </script>
+              <br><br><br><br><br><br><br><br><br><br><br><br>
+              <div class="row">
+                  <div class="col-lg-12">
+                    <div id="contact">
+                      <h1>Contact Us</h1>
+                      <h3>Follow Us On Social Media</h3>
+                      <br><br>
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <img src="instagram-Logo-PNG-Transparent-Background-download-768x768.png" width="400px" height="300px"/>
+                        </div>
+                        <div class="col-lg-4">
+                          <img src="images.png" width="400px" height="300px"/>
+                        </div>
+                        <div class="col-lg-4">
+                          <img src="index.png" width="400px" height="300px"/>
+                        </div>
+                      </div>
+                      <br><br><br>
+                    </div>
+              <footer style="color:dimgrey;">
+                <p align="center"><strong> &copyConnectify </strong></p>
+              </footer>
+        </div>
+</body>  
+</html>
